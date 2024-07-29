@@ -77,6 +77,7 @@ public class Main {
 
     private void createConnect() {
         try {
+            //resourse is a class with 3 static field only for storing url, username and password
             String url = resource.url;
             String username = resource.username;
             String password = resource.password;
